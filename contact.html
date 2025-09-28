@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Globel Travels — Contact</title>
+  <meta name="description" content="Contact Globel Travels — send your details and we'll respond." />
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="brand-link">
+          <img src="images/logo.png" alt="Globel Travels logo" class="logo">
+          <span class="brand-title">Globel Travels</span>
+        </a>
+      </div>
+
+      <nav class="main-nav" role="navigation" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-ghost" href="#">Call Us</a>
+        <button class="menu-toggle" aria-label="Open menu"><i class="fa fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="site-main">
+    <section class="contact-hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p class="lead">Please fill the form below. (Form submission is design-only for this project — no backend required.)</p>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-wrap">
+
+        <!-- Contact Form (fields per instruction) -->
+        <form class="form-contact" action="#" method="post" novalidate>
+          <fieldset>
+            <legend>Get in touch</legend>
+
+            <!-- Name -->
+            <label for="full-name">Full Name</label>
+            <input id="full-name" name="name" type="text" placeholder="Your full name" required>
+
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+            <!-- Phone -->
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="+91-XXXXXXXXXX">
+
+            <!-- Gender -->
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+              <option value="">-- Select Gender --</option>
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="other">Other</option>
+            </select>
+
+            <!-- Country -->
+            <label for="country">Country</label>
+            <select id="country" name="country" required>
+              <option value="">-- Select Country --</option>
+              <option value="india">India</option>
+              <option value="uk">United Kingdom</option>
+              <option value="usa">United States</option>
+              <option value="aus">Australia</option>
+              <option value="switzerland">Switzerland</option>
+              <option value="mexico">Mexico</option>
+              <option value="peru">Peru</option>
+              <option value="other">Other</option>
+            </select>
+
+            <!-- Message -->
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell us about your travel plans, dates or questions..."></textarea>
+
+            <!-- Submit -->
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Send Message</button>
+              <button class="btn btn-outline" type="reset">Reset</button>
+            </div>
+          </fieldset>
+        </form>
+
+        <!-- Contact details block -->
+        <aside class="contact-info">
+          <h3>Other ways to reach us</h3>
+          <p><strong>Email:</strong> <a href="mailto:contact@globeltravels.com">contact@globeltravels.com</a></p>
+          <p><strong>Phone:</strong> +91-98765-43210</p>
+          <p><strong>Office:</strong> 123 Travel Lane, Ahmedabad, India</p>
+
+          <div class="socials-inline">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-bottom">
+      <p>© 2025 Globel Travels. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
